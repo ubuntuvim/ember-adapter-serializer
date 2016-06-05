@@ -1,7 +1,6 @@
 # Adapter-serializer
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Ember.js的适配器和序列化器示例，主要是通过创建一个完整的示例去演示如何使用Ember的[adapter](https://guides.emberjs.com/v2.5.0/models/customizing-adapters/)和[serializer](https://guides.emberjs.com/v2.5.0/models/customizing-serializers/)。
 
 ## Prerequisites
 
@@ -50,4 +49,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
