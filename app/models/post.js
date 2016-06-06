@@ -8,5 +8,6 @@ export default Model.extend({
     publicDate: attr('date'),
     content: attr('string'),
     user: belongsTo('user'),  //一对多关系，多的一方使用belongsTo
-    comments: hasMany('comment')
+    comments: hasMany('comment'),
+    tags: hasMany('tag')
 });

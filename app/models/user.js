@@ -9,6 +9,7 @@ export default Model.extend({
     password: attr('string'),
     birth: attr('string'),
     addr: attr('string'),
-    comments: hasMany('comment'),  //一对多关系，一的一方设置hasMay，多的一方设置belongsTo
+    //一对多关系，一的一方设置hasMay，多的一方设置belongsTo
+    comments: hasMany('comment'),
     posts: hasMany('post')
 });

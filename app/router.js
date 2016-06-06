@@ -13,6 +13,7 @@ Router.map(function() {
     this.route('edit', { path: '/:user_id' });
   });
   this.route('comments');
+  this.route('tags');
 });
 
 export default Router;
