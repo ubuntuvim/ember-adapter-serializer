@@ -5,7 +5,7 @@ import { belongsTo,hasMany } from 'ember-data/relationships';
 
 export default Model.extend({
     title: attr('string'),
-    publicDate: attr('date'),
+    publicDate: attr('string'),
     content: attr('string'),
     user: belongsTo('user'),  //一对多关系，多的一方使用belongsTo
     post: belongsTo('post')

@@ -1,1 +1,3 @@
-{{outlet}}
+{{#each model as |c|}}
+{{c.title}}==={{c.publicDate}}=={{c.content}}<br>
+{{/each}}

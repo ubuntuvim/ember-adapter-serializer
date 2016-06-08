@@ -1,6 +1,9 @@
+// app/routes/users/edit.js
+
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  // 根据ID查询
   model(params) {
     return this.store.findRecord('user', params.user_id);
   },
@@ -11,9 +14,9 @@ export default Ember.Route.extend({
         u.set('addr', user.get('addr'));
         u.set('birth', user.get('birth'));
         u.set('addr', user.get('addr'));
-        u.save();
+        u.save();  //保存修改的属性值
       });
-      this.transitionTo('users.list');
+      this.transitionTo('users.list');  //转到列表页面
     }
   }
 });
